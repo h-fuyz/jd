@@ -85,6 +85,12 @@ if ($.isNode()) {
                     code: "",
                     err: "",
                 },
+                jdnian: {
+                    name: "京东炸年兽",
+                    base: "https://code.chiang.fun/api/v1/jd/jdnian/create/",
+                    code: "",
+                    err: "",
+                }
             };
             await getShareCode(cookie);
             if (true) {
